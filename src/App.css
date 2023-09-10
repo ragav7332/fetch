@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+body{
+  /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(177,30,74,1) 84%, rgba(179,41,91,1) 98%, rgba(141,186,207,1) 98%, rgba(193,65,78,1) 100%, rgba(195,46,108,1) 100%, rgba(0,212,255,1) 100%); */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+input[type="Email"],input[type="Password"],input[type="text"]{
+  padding: 8px 0px;
+  margin: 0px 0px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.card{
+  width: 360px;
+  display:inline-block;
+  margin-left: 30px;
+  box-shadow: gray;
+  padding-left: 30px;
+}
+.image-card{
+  width:300px;
+  height: 300px;
+  object-fit: contain;
+}
+.container{
+  
+  margin:8% 2rem;
+}
+.app-wrapper{
+  flex-wrap: wrap;
+  padding:5% 10%;
+  width:30%;
+  height:35vh;
+  /* background: rgb(2,0,36); */
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,177,173,1) 84%, rgba(141,186,207,1) 100%, rgba(195,46,108,1) 100%, rgba(0,212,255,1) 100%); */
+  margin: 3rem 25%;
+  
 }
